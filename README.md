@@ -2,7 +2,7 @@
 repository contenente un sito web statico per le attivita' dei ragazzi delle scuole medie che vengono a vedere l'IIS Euganeo di Este
 
 # Struttura
-All'interno della repository è presente una cartella `public` al cui interno sono presenti tutti i file relativi al sito web statico divisi per tipologia:
+Ecco la struttura dei file e delle cartelle di questa repository:
 ```python
 ├─── .github/
 │   └── workflows/           # Cartella in cui sono presenti le configurazioni di github per creare il sito web e aggiornarlo
