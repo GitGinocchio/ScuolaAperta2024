@@ -7,24 +7,7 @@
 	
     <title>ScuolaAperta2024</title>
     <link rel="stylesheet" href="static/css/style.css">
-    <script type="text/javascript">
-        function showDate() {
-            var d = new Date();
-            var curr_hour = d.getHours();
-            var curr_min = d.getMinutes();
-            var curr_date = d.getDate();
-            var curr_month = d.getMonth() + 1; // i mesi sono basati su zero
-            var curr_year = d.getFullYear();
-            // Forma l'orario in formato stringa
-            var timeString = curr_hour + ":" + (curr_min < 10 ? '0' + curr_min : curr_min) + "&nbsp;&nbsp;&nbsp;&nbsp;" + curr_date + "-" + curr_month + "-" + curr_year;
-            // Aggiorna l'elemento HTML con l'ora corrente
-            document.getElementById("dateTimeDisplay").innerHTML = timeString;
-        }
-
-;
-        // Aggiorna l'ora ogni secondo
-        setInterval(showDate, 1000);
-    </script>
+    <script src="static/js/index.js"></script>
 </head>
 <body>
     <div id="dateTimeDisplay"></div>
@@ -108,6 +91,5 @@
     <footer>
         <p>copyright © 2024 redacted by Filippo Ambrosi, Baraldo Mattia, Tognetto Giulio. all contents of this site are licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a> see <a href="https://github.com/GitGinocchio/ScuolaAperta2024?tab=CC-BY-4.0-1-ov-file" target="_blank">LICENSE</a> for help</p>
     </footer>
-    <script src="static/js/script.js"></script> <!-- Corretto -->
 </body>
 </html>
